@@ -9,13 +9,13 @@ Xinghan Yin - Quality and DevOps
 ## Product Vision 
 ### Far Vision for the product
 The Settlement and Reporting module is designed to simplify the process of buying and settling trades on the UniTrade platform. Our long-term vision is to create an automated, transparent, and secure system that manages all transactions accurately using microservices. The key goals of our module are:
-Once a buyer confirms a purchase, we lock in the price and update the backend system so it becomes part of the platform’s historical data.
-Make sure every trade is settled quickly and without errors, by using a series of specialized microservices.
-Generate detailed reports that help traders keep track of their transactions and understand potential risks.
-Address major trade issues through a strong risk management system, including:
-Insufficient Funds: Ensure trades only go through if buyers have enough money by checking their balance at important stages.
-Counterparty Risk: Reduce the chance of a trade falling apart by analyzing past user behavior to ensure both parties meet their obligations.
-Settlement Failures: Prevent problems with trade settlement, making sure goods and payments are exchanged on time and correctly.
+* Once a buyer confirms a purchase, we lock in the price and update the backend system so it becomes part of the platform’s historical data.
+* Make sure every trade is settled quickly and without errors, by using a series of specialized microservices.
+* Generate detailed reports that help traders keep track of their transactions and understand potential risks.
+* Address major trade issues through a strong risk management system, including:
+ * Insufficient Funds: Ensure trades only go through if buyers have enough money by checking their balance at important stages.
+ * Counterparty Risk: Reduce the chance of a trade falling apart by analyzing past user behavior to ensure both parties meet their obligations.
+ * Settlement Failures: Prevent problems with trade settlement, making sure goods and payments are exchanged on time and correctly.
 This vision supports the broader goals of the UniTrade platform by making post-trade processes as smooth, reliable, and secure as possible—just like the trade execution itself.
 
 ### Near vision for the first iteration
