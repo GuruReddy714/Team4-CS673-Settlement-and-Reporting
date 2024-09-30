@@ -1,5 +1,5 @@
 # Group 4 (UniTrade – Settlement and Reporting)
-### Team Members
+## Team Members
 Sai Rahul Dasari - Product Manager/ Business Analyst  
 Gurukiran Reddy Kasireddy - Microservices Developer  
 Sindhu Maddineni - UI/UX Designer  
@@ -31,11 +31,8 @@ This iteration will serve as the foundation for future improvements, ensuring th
 
 ## Stakeholders
 For the Settlement and Reporting module, we’ve identified three main groups of people who will benefit from our work:
-
 Traders (Buyers and Sellers): These are the people using the platform to buy and sell products. They need the settlement system to work efficiently, with accurate reports on their trades, prices, and account balances. Quick access to these reports helps them track their performance and make sure they’re following all the rules.
-
 Platform Administrators: These are the people who manage and monitor the platform. They need a clear and transparent way to track every trade and settlement to ensure everything is running smoothly. Real-time reports and audit logs help them keep an eye on the platform’s overall health and manage risks.
-
 Risk Management Officers: These are the people responsible for making sure the platform doesn’t lose money due to trade failures. They need the system to automatically check margins and balances at key moments to ensure traders have enough funds, reducing the chances of a trade falling through.
 
 
