@@ -7,6 +7,9 @@ Daniel Sarzynski - Data Architect
 Xinghan Yin - Quality and DevOps  
  
 ## Product Vision 
+Roster:
+guru
+kiran
 
 
 ## Stakeholders
