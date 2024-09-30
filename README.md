@@ -13,7 +13,7 @@ The Settlement and Reporting module is designed to simplify the process of buyin
 * Make sure every trade is settled quickly and without errors, by using a series of specialized microservices.
 * Generate detailed reports that help traders keep track of their transactions and understand potential risks.
 * Address major trade issues through a strong risk management system, including:
- ** Insufficient Funds: Ensure trades only go through if buyers have enough money by checking their balance at important stages.
+  * Insufficient Funds: Ensure trades only go through if buyers have enough money by checking their balance at important stages.
  * Counterparty Risk: Reduce the chance of a trade falling apart by analyzing past user behavior to ensure both parties meet their obligations.
  * Settlement Failures: Prevent problems with trade settlement, making sure goods and payments are exchanged on time and correctly.
 This vision supports the broader goals of the UniTrade platform by making post-trade processes as smooth, reliable, and secure as possible—just like the trade execution itself.
