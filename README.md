@@ -7,7 +7,7 @@ Daniel Sarzynski - Data Architect
 Xinghan Yin - Quality and DevOps  
  
 ## Product Vision 
-###Far Vision for the product
+### Far Vision for the product
 The Settlement and Reporting module is designed to simplify the process of buying and settling trades on the UniTrade platform. Our long-term vision is to create an automated, transparent, and secure system that manages all transactions accurately using microservices. The key goals of our module are:
 Once a buyer confirms a purchase, we lock in the price and update the backend system so it becomes part of the platform’s historical data.
 Make sure every trade is settled quickly and without errors, by using a series of specialized microservices.
@@ -18,7 +18,7 @@ Counterparty Risk: Reduce the chance of a trade falling apart by analyzing past 
 Settlement Failures: Prevent problems with trade settlement, making sure goods and payments are exchanged on time and correctly.
 This vision supports the broader goals of the UniTrade platform by making post-trade processes as smooth, reliable, and secure as possible—just like the trade execution itself.
 
-###Near vision for the first iteration
+### Near vision for the first iteration
 In the first iteration, we’ll focus on building the basic components of the Settlement and Reporting module. Here's what we plan to accomplish:
 Design specific use cases for settlement and reporting functionalities, and create test cases to make sure everything works as expected.
 Set up database tables to organize and categorize data effectively.
