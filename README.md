@@ -86,26 +86,73 @@ Pain Points:
 * Fix bug preventing user reviews from being submitted
 
 ### Improvements
-Optimize website loading speed
-Improve mobile UI responsiveness
-Enhance website accessibility for screen readers
-5. Spikes
-Research and evaluate different recommendation system algorithms
-Explore feasibility of real-time chat functionality
-Investigate use of blockchain technology for secure payments
-6. Non-functional Requirements
-Ensure the website can handle at least 1000 concurrent requests per second
-Implement 99.9% system uptime
-Ensure all pages load in under 3 seconds
-7. Documentation and Training
-Create user manual
-Write API documentation
-Prepare training materials for customer service team
-8. Legal and Compliance
-Ensure website complies with GDPR data protection requirements
-Update terms of service and privacy policy
-Implement necessary security measures to comply with PCI DSS standards
+* Optimize website loading speed
+* Improve mobile UI responsiveness
+* Enhance website accessibility for screen readers
 
+### Spikes
+* Research and evaluate different recommendation system algorithms
+* Explore feasibility of real-time chat functionality
+* Investigate use of blockchain technology for secure payments
 
+### Non-functional Requirements
+* Ensure the website can handle at least 1000 concurrent requests per second
+* Implement 99.9% system uptime
+* Ensure all pages load in under 3 seconds
 
+### Documentation and Training
+* Create user manual
+* Write API documentation
+* Prepare training materials for customer service team
+### Legal and Compliance
+* Ensure website complies with GDPR data protection requirements
+* Update terms of service and privacy policy
+* Implement necessary security measures to comply with PCI DSS standards
+
+## Rationale on how we ordered Backlog
+### High Priority User Stories
+These are core features directly tied to user functionality and the product’s primary goals,
+such as:
+- Buyer and seller registration, product listing, and purchase processes.
+- Search, view, and manage products.
+- Payment integration and order management.
+
+### Medium Priority User Stories
+Features that enhance user experience but are secondary to core functionalities:
+- Profile management, ratings/reviews, and communication between users.
+- Alerts for products on discount or back in stock.
+
+### Lower Priority User Stories
+Optional features that provide added value but are less critical for launch:
+- Wish lists, analytics, mobile app access, auctions, and bulk discounts.
+
+### Technical Tasks and Bug Fixes
+The technical foundation, such as database configuration and bug fixing (e.g., mobile
+layout issues), ensures smooth operation.
+
+### Improvements, Spikes, and Non-Functional Requirements
+These include enhancements like speed optimization, real-time chat feasibility, and
+ensuring high performance and uptime.
+
+### Legal and Compliance
+These ensure regulatory adherence, like GDPR compliance and PCI DSS standards.
+The backlog prioritization appears to focus on user-centric functionality first, followed by
+technical stability and, long-term improvements. This structure ensures a usable product
+quickly, with scalability and compliance addressed progressively
+
+## Definition of Ready for product backlog items
+
+Title: Buyer Registration
+User Story: "As a buyer, I want to register an account so that I can start using the platform for shopping."
+Additional Details:
+* Acceptance Criteria:
+	* The registration form must include fields for email, password, and address.
+	* The system must validate the email and ensure that the password is stored securely using encryption.
+	* The user should receive a confirmation email to verify their registration.
+* Technical Considerations:
+	* Database schema must support user accounts with unique emails.
+
+	* Email confirmation link expires after 24 hours.
+* Mockups: Refer to the attached wireframe for the registration form layout.
+* Story Points: 5
 
